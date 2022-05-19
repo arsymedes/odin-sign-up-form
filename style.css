@@ -371,6 +371,7 @@ body {
   height: 100vh;
   background-image: url(./image/background.jpg);
   background-size: cover;
+  position: relative;
 }
 
 .logo {
@@ -389,6 +390,19 @@ body {
   color: var(--bg-color);
   position: relative;
   top: 10px;
+}
+
+.credit {
+  color: white;
+  font-size: 0.7rem;
+  position: absolute;
+  bottom: 1px;
+  width: 100%;
+  text-align: center;
+}
+
+.image-decorated a {
+  color: white;
 }
 
 .content {
